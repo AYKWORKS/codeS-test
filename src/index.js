@@ -8,7 +8,7 @@ const val4 = {
   name: "ayk",
   age: 1
 };
-console.log(val4);
+// console.log(val4);
 val4.name = "ay";
 val4.address = "kumamoto";
 console.log(val4);
