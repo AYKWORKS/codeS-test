@@ -25,7 +25,25 @@
  * テンプレート文字列
  * テンプレートリテラル ``
  */
-const name = "あや";
-const age = 112;
-const message1 = `私の名前は${name}です。年齢は${age}です。`;
-console.log(message1);
+// const name = "あや";
+// const age = 112;
+// const message1 = `私の名前は${name}です。年齢は${age}です。`;
+// console.log(message1);
+
+/**
+ * アロー関数
+ */
+// // 従来
+// function func1(str) {
+//   return str;
+// }
+const func1 = function (str) {
+  return str;
+};
+console.log(func1("Func1です"));
+
+// アロー関数
+const func2 = (str) => {
+  return str;
+};
+console.log(func2("func2です"));
