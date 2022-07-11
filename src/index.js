@@ -131,8 +131,13 @@
 // nameArr.map((name) => console.log(name));
 
 // 条件に一致した値を取り出す　 = filter
-const numArr = [1, 2, 3, 4, 5];
-const newNumArr = numArr.filter((num) => {
-  return num % 2 === 0;
-});
-console.log(newNumArr);
+// const numArr = [1, 2, 3, 4, 5];
+// const newNumArr = numArr.filter((num) => {
+//   return num % 2 === 0;
+// });
+// console.log(newNumArr);
+
+const nameArr = ["田中", "山田", "じゃん"];
+for (let index = 0; index < nameArr.length; index++) {
+  console.log(`${index}番目は${nameArr[index]}です`);
+}
