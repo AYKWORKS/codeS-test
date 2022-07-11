@@ -56,13 +56,19 @@
 /**
  * 分割代入
  */
-const myProfile = {
-  name: "aya",
-  age: 141
-};
+// const myProfile = {
+//   name: "aya",
+//   age: 141
+// };
 
-const message = `名前は${myProfile.name}です。年齢は${myProfile.age}です。`;
+// const message = `名前は${myProfile.name}です。年齢は${myProfile.age}です。`;
 
-const { name, age } = myProfile;
-const message2 = `名前は${name}です。年齢は${age}です。`;
-console.log(message2);
+// const { name, age } = myProfile;
+// const message2 = `名前は${name}です。年齢は${age}です。`;
+// console.log(message2);
+
+// 配列の分割代入
+const myProfile = ["aya", 551];
+
+const message3 = `名前は${myProfile[0]}です。年齢は${myProfile[1]}です。`;
+console.log(message3);
