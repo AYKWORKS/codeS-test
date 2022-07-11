@@ -117,7 +117,7 @@
  * map：既存の配列を加工して、新しい配列を作成したい時に便利。
  * filter：配列の中から、ある条件に合う要素全てを抽出し新しい配列として生成
  */
-const nameArr = ["田中", "山田", "じゃん"];
+// const nameArr = ["田中", "山田", "じゃん"];
 // 従来
 // for (let index = 0; index < nameArr.length; index++) {
 //   console.log(nameArr[index]);
@@ -128,4 +128,11 @@ const nameArr = ["田中", "山田", "じゃん"];
 // })
 // console.log(nameArr2);
 // 省略記法
-nameArr.map((name) => console.log(name));
+// nameArr.map((name) => console.log(name));
+
+// 条件に一致した値を取り出す　 = filter
+const numArr = [1, 2, 3, 4, 5];
+const newNumArr = numArr.filter((num) => {
+  return num % 2 === 0;
+});
+console.log(newNumArr);
