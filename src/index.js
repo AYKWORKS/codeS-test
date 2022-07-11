@@ -68,10 +68,17 @@
 // console.log(message2);
 
 // 配列の分割代入
-const myProfile = ["aya", 551];
+// const myProfile = ["aya", 551];
 
-const message3 = `名前は${myProfile[0]}です。年齢は${myProfile[1]}です。`;
-console.log(message3);
+// const message3 = `名前は${myProfile[0]}です。年齢は${myProfile[1]}です。`;
+// console.log(message3);
 
-const [name, age] = myProfile;
-const message4 = `名前は${name}です。年齢は${age}歳です。`;
+// const [name, age] = myProfile;
+// const message4 = `名前は${name}です。年齢は${age}歳です。`;
+
+/**
+ * デフォルト値、引数など
+ */
+// (name = "ゲスト")　でデフォルトの値を渡す
+const sayHello = (name = "ゲスト") => console.log(`こんにちは！${name}さん！`);
+sayHello("じゃけえ");
