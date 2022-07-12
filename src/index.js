@@ -167,7 +167,19 @@
 // console.log(formatedNum); //数値を入力して下さい
 
 // 関数のreturnに三項演算子を使用
-const checkNum = (num1, num2) => {
-  return num1 + num2 > 100 ? "100を超えています！！" : "許容範囲内です";
-};
-console.log(checkNum(100, 50)); // falseの値
+// const checkNum = (num1, num2) => {
+//   return num1 + num2 > 100 ? "100を超えています！！" : "許容範囲内です";
+// };
+// console.log(checkNum(100, 50)); // falseの値
+
+/**
+ * 論理演算子の本当の意味を知ろう && ||
+ */
+const flag1 = true;
+const flag2 = true;
+if (flag1 || flag2) {
+  console.log("1か2がtrueです");
+}
+if (flag1 && flag2) {
+  console.log("1も2もtrueです");
+}
