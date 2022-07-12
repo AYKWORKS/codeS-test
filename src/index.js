@@ -159,9 +159,15 @@
 // const val1 = 1 < 0 ? 'trueです' : 'falseです';
 // console.log(val1);
 
-const num = "1300";
-console.log(num.toLocaleString());
+// const num = "1300";
+// console.log(num.toLocaleString());
 
-const formatedNum =
-  typeof num === "number" ? num.toLocaleString() : "数値を入力して下さい";
-console.log(formatedNum); //数値を入力して下さい
+// const formatedNum =
+//   typeof num === "number" ? num.toLocaleString() : "数値を入力して下さい";
+// console.log(formatedNum); //数値を入力して下さい
+
+// 関数のreturnに三項演算子を使用
+const checkNum = (num1, num2) => {
+  return num1 + num2 > 100 ? "100を超えています！！" : "許容範囲内です";
+};
+console.log(checkNum(100, 50)); // falseの値
